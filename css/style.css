@@ -1,0 +1,242 @@
+/* All common css start */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+.mr{
+    margin-right: 0 !important;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+/* All common css end */
+
+/* header part start  */
+.header_part{
+    background:rgba(0, 0, 0, 0.44);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+.logo_with_menu{
+    display: flex;
+}
+.logo{
+    padding-top: 30px;
+    width: 270px;
+}
+.menu{
+    width: 900px;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: #fff;
+    line-height: 90px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-left: 44px;
+    font-weight: 700;
+    transition: .5s;
+
+}
+.menu ul li a:hover{
+    color:#28b8d8 ;
+}/* header part end  */
+
+/* banner part start  */
+#banner_part{
+    padding-top: 330px;
+    padding-bottom: 250px;
+    background-image: url(../images/kubb-background-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner_text{
+    text-align: center;
+}
+.banner_text h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+
+}
+
+.banner_text h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    padding: 20px 0;
+    letter-spacing: 5px;
+
+}
+
+.banner_text p{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+
+}
+/* banner part end  */
+
+/* service part start  */
+#service_part{
+    padding: 80px 0;
+    background: #f9f9f9;
+}
+.service_text{
+    text-align: center;
+}
+.service_text h4{
+    color: #444444;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+
+}
+.service_text p{
+    color: #666666;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-bottom: 80px;
+    padding-top: 30px;
+
+}
+.service_text h3{
+    color: #444444;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.service_item_part{
+    display: flex;
+}
+.service_item{
+    width: 368px;
+    border: 1px solid #e3e3e3;
+    padding: 15px;
+    margin-right: 30px;
+}
+.images_item img{
+    width: 100%;
+}
+.item_text{
+    padding: 0 40px;
+    text-align: center;
+}
+.item_text h3{
+    color: #444444;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.item_text p{
+    color: #666666;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+}
+/* service part end  */
+
+/* instagram part start  */
+#instagram_part{
+    padding:50px 0 ;
+    background:#2c2c2c;
+}
+.insta_text{
+    text-align: center;
+}
+.insta_text h3{
+    color: #d5d5d5;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-left: 44px;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+}
+.insta_text h3::before{
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    background: #535353;
+    content:"";
+    left: -70px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.insta_text h3::after{
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    background: #535353;
+    content:"";
+    right: -110px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.insta_shorts_item{
+    width: 25%;
+}
+.insta_shorts_item img{
+    width: 100%;
+}
+.insta_shorts_part{
+    display: flex;
+    margin-top: 50px;
+}
+.insta_batton{
+    text-align: center;
+    margin-top: 50px;
+}
+.insta_batton a{
+    padding: 15px 20px;
+    border: 1px solid #797979;
+    color: #9d9d9d;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;  
+}
+.insta_batton i{
+    margin-right: 10px;
+}
+
+
+
+
+
+/* instagram part end  */
+
